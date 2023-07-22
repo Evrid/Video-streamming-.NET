@@ -37,7 +37,7 @@ namespace videostreaming3.Controllers
         {
             return View();
         }
-        public IActionResult Secrets()
+        public IActionResult Doraemon()
         {
             return View();
         }
