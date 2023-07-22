@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome, what do you want watch? </h1>
+
+    <h1>Note I only have 60 CPU minutes for the server per day! This means when you are watching it might stop accidentally.</h1>
+   
+</div>
+<style>
+    /* Additional style to create space between image divs */
+    .image-container {
+        margin: 60px;
+    }
+</style>
+
+<!-- First Row -->
+<div style="display: flex; justify-content: center;">
+    <!-- First Image Div -->
+    <div class="image-container" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <a href="@Url.Content("/home/Aladdin")">
+            <img src="https://flxt.tmsimg.com/assets/p14596224_v_v12_ab.jpg" width="300" height="400" />
+        </a>
+        <a href="@Url.Content("/home/Aladdin")">Aladdin (2019)</a>
+    </div>
+
+    <!-- Second Image Div -->
+    <div class="image-container" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <a href="@Url.Content("/home/Lolita1997")">
+            <img src="https://resizing.flixster.com/JbQeEuUhU7mHHm0uolK_ChpGcj8=/300x300/v2/https://flxt.tmsimg.com/assets/p19943_p_v10_ay.jpg" width="400" height="400" />
+        </a>
+        <a href="@Url.Content("/home/Lolita1997")">Lolita (1997)</a>
+    </div>
+</div>
+
+<!-- Second Row -->
+<div style="display: flex; justify-content: center;">
+    <!-- Third Image Div -->
+    <div class="image-container" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <a href="@Url.Content("/home/Lupin")">
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/83/Lupin_the_3rd_vs_Detective_Conan_The_Special.png" width="300" height="400" />
+        </a>
+        <a href="@Url.Content("/home/Lupin")">Lupin the 3rd vs. Detective Conan</a>
+    </div>
+
+    <!-- Fourth Image Div -->
+    <div class="image-container" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <a href="@Url.Content("/home/Secrets")">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTI5NjgzMjA3OF5BMl5BanBnXkFtZTYwMTU5NzI3._V1_FMjpg_UX1000_.jpg" width="300" height="400" />
+        </a>
+        <a href="@Url.Content("/home/Secrets")">Little Secrets 2001</a>
+    </div>
+</div>
+
+<!-- Third Row -->
+<div style="display: flex; justify-content: center;">
+    <!-- Fifth Image Div -->
+    <div class="image-container" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <a href="@Url.Content("/home/SurgeonsS1")">
+            <img src="https://m.media-amazon.com/images/M/MV5BZWJmZTkxMjUtMzg2Ni00OGEyLTkzMDEtZTI4ODE3MjUzZDNkXkEyXkFqcGdeQXVyMTUyNjc3NDQ4._V1_.jpg" width="300" height="400" />
+        </a>
+        <a href="@Url.Content("/home/SurgeonsS1")">Surgeons: At the Edge of Life Season 1</a>
+    </div>
+
+    <!-- Sixth Image Div -->
+    <div class="image-container" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <a href="@Url.Content("/home/SurgeonsS2")">
+            <img src="https://ichef.bbci.co.uk/images/ic/480xn/p08sv9bs.jpg" width="500" height="400" />
+        </a>
+        <a href="@Url.Content("/home/SurgeonsS2")">Surgeons: At the Edge of Life Season 2</a>
+    </div>
+</div>
+
+<!-- Fourth Row -->
+<div style="display: flex; justify-content: center;">
+    <!-- Seventh Image Div -->
+    <div class="image-container" style="display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <a href="@Url.Content("/home/SurgeonsS3")">
+            <img src="https://i.ytimg.com/vi/ApLHu8eujSY/maxresdefault.jpg" width="500" height="400" />
+        </a>
+        <a href="@Url.Content("/home/SurgeonsS3")">Surgeons: At the Edge of Life Season 3</a>
+    </div>
+</div>
