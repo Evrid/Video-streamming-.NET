@@ -1,0 +1,16 @@
+﻿/* Additional style to create space between image divs */
+.image-container {
+    margin: 30px;
+}
+
+/* Use media query to adjust the layout for smaller screens */
+@media (max-width: 768px) {
+    .image-container {
+        margin: 15px; /* Reduce the margin further for smaller screens */
+    }
+}
+
+/* Set the max-width to make images responsive */
+img {
+    max-width: 100%;
+}
