@@ -4,6 +4,8 @@ You can see the demo site at:
 
 https://videostreaming.azurewebsites.net/
 
+//My OSS subscription expires on Oct 24, 2023, which means might not be able to watch the files uploaded afterward.
+
 This is a simple video streaming web application built using .NET, MVC and Razor View Engine. It showcases a range of videos that users can click on to view. Note that there is a limit of 60 CPU minutes for the server per day, so videos might stop accidentally if the limit is reached.
 
 ## Features
